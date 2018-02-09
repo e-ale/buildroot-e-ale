@@ -5,18 +5,13 @@
 ################################################################################
 
 WF111_VERSION = 5-2-2-r3
-WF111_SITE_METHOD = file
-WF111_SITE = $(call qstrip,$(BR2_PACKAGE_WF111_TARBALL_PATH))
+WF111_SITE = https://www.silabs.com/documents/login/software
 WF111_DEPENDENCIES = linux
-
-ifeq ($(BR2_PACKAGE_WF111)$(call qstrip,$(BR2_PACKAGE_WF111_TARBALL_PATH)),y)
-$(error No tarball location specified, check BR2_PACKAGE_WF111_TARBALL_PATH)
-endif
 
 ifeq ($(BR2_ARM_CPU_ARMV7A),y)
 WF111_SOURCE = wf111-linux-driver-$(WF111_VERSION)-armv7-a.tar.gz
 else ifeq ($(BR2_ARM_CPU_ARMV5),y)
-WF111_SOURCE = wf111-linux-driver-$(WF111_VERSION)-armv5t.tar.gz
+WF111_SOURCE = wf111-linux-driver-$(WF111_VERSION)-armv5te.tar.gz
 else ifeq ($(BR2_i386),y)
 WF111_SOURCE = wf111-linux-driver-$(WF111_VERSION)-x86.tar.gz
 endif

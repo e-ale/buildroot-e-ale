@@ -342,6 +342,7 @@ F:	package/python-pylru/
 F:	package/python-requests-oauthlib/
 F:	package/python-slob/
 F:	package/rtmpdump/
+F:	package/samba4/
 F:	package/softether/
 F:	package/taglib/
 F:	package/tinyxml2/
@@ -540,6 +541,8 @@ F:	package/xxhash/
 N:	Eric Le Bihan <eric.le.bihan.dev@free.fr>
 F:	docs/manual/adding-packages-meson.txt
 F:	package/adwaita-icon-theme/
+F:	package/cargo-bin/
+F:	package/cargo/
 F:	package/darkhttpd/
 F:	package/eudev/
 F:	package/execline/
@@ -547,6 +550,8 @@ F:	package/hicolor-icon-theme/
 F:	package/jemalloc/
 F:	package/meson/
 F:	package/ninja/
+F:	package/rust-bin/
+F:	package/rust/
 F:	package/s6/
 F:	package/s6-dns/
 F:	package/s6-linux-init/
@@ -636,6 +641,7 @@ F:	package/libupnp18/
 F:	package/minissdpd/
 F:	package/motion/
 F:	package/rygel/
+F:	package/safeclib/
 F:	package/tinycbor/
 F:	package/tinydtls/
 
@@ -752,6 +758,7 @@ F:	package/libusbgx/
 F:	package/python-cheetah/
 F:	package/python-markdown/
 F:	package/python-pyqt/
+F:	package/python-remi/
 F:	package/python-sip/
 
 N:	Henrique Camargo <henrique@henriquecamargo.com>
